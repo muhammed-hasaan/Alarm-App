@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom right, rgb(0, 255, 60), white, white, rgb(251, 255, 0));
+}
+
+h1 {
+    color: #333;
+}
+
+#time {
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+#alarm-form {
+    margin-top: 50px;
+}
+
+#alarm-time {
+    padding: 10px;
+    font-size: 18px;
+}
+
+#set-alarm {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(150px);
+    -webkit-backdrop-filter: blur(150px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    background-repeat: no-repeat;
+}
